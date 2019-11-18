@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Order Status</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var requestDetails = new FirstAdvantageSpokeWebhookUtils().validateInputs("Webhook Response", request.body.data);
+    var order_id = new FirstAdvantageSpokeWebhookUtils().validateInputs("Order ID", requestDetails.order.order_id);
+    var candidate_id = "";
+    var quote_backs = requestDetails.order.meta_data.quote_backs;
+	var client_references = requestDetails.order.meta_data.client_references;
+	
+    for (var i = 0; i <= quote_backs.length; i++) {
+        var obj = quote_backs[i];
+        if (obj.name == 'candidate_id') {
+            candidate_id = new FirstAdvantageSpokeWebhookUtils().validateInputs("Candidate Id", obj.value);
+            break;
+        }
+    }
+	
+	var inputPayload = {
+		order_id : order_id,
+		order_status : requestDetails.order.order_status,
+		result_status : requestDetails.order.result_status,
+		package_id : requestDetails.order.package_id,
+		candidate_id : candidate_id
+	};
+	
+	if(typeof client_references == 'string')
+		inputPayload['client_reference'] = new FirstAdvantageSpokeWebhookUtils().validateInputs("Client reference", requestDetails.order.meta_data.client_references);
+	
+	else
+		if(client_references.join().replace(/,/g,'').length !== 0)
+			inputPayload['client_references'] = client_references;
+		else
+			gs.error("The key Client References is null");
+	
+	new FirstAdvantageSpokeWebhookUtils().queryTaskTable(inputPayload);
+    return ("ok");
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_fadv/fadv/order_status</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/order_status</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>anamika</sys_created_by>
+        <sys_created_on>2019-09-10 07:38:04</sys_created_on>
+        <sys_id>f2de8beddb7b37403e146583ca961903</sys_id>
+        <sys_mod_count>91</sys_mod_count>
+        <sys_name>Order Status</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_ws_operation_f2de8beddb7b37403e146583ca961903</sys_update_name>
+        <sys_updated_by>anamika</sys_updated_by>
+        <sys_updated_on>2019-11-18 11:22:20</sys_updated_on>
+        <web_service_definition display_value="FADV">9a2b8b2ddb7b37403e146583ca961930</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

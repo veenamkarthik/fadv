@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>200</order>
+        <question display_value="Candidate Type">812f01e3dba8cc506a555275ca96191b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-10-23 10:27:34</sys_created_on>
+        <sys_id>c8f11d67dba8cc506a555275ca9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Existing User</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>question_choice_c8f11d67dba8cc506a555275ca9619f4</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-10-23 10:27:34</sys_updated_on>
+        <text>Existing User</text>
+        <value>existing_user</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=c8f11d67dba8cc506a555275ca9619f4"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>c8f11d67dba8cc506a555275ca9619f4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-10-23 10:27:34</sys_created_on>
+        <sys_id>e6225d67dba8cc506a555275ca961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-10-23 10:27:34</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>c8f11d67dba8cc506a555275ca9619f4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-10-23 10:27:34</sys_created_on>
+        <sys_id>ae225d67dba8cc506a555275ca961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-10-23 10:27:34</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

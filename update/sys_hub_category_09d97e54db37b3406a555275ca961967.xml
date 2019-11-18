@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Order Management</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>aayashak</sys_created_by>
+        <sys_created_on>2019-09-06 09:01:04</sys_created_on>
+        <sys_id>09d97e54db37b3406a555275ca961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Management</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_hub_category_09d97e54db37b3406a555275ca961967</sys_update_name>
+        <sys_updated_by>aayashak</sys_updated_by>
+        <sys_updated_on>2019-09-06 09:01:04</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=09d97e54db37b3406a555275ca961967"/>
+</record_update>

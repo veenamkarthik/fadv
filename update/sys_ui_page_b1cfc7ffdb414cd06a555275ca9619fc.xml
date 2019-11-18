@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function initiateOAuthFlow() {
+	showNotification("Retrieving OAuth Token...");
+	g_form.addInfoMessage("here");
+	var requestor = gel("requestor").value;
+	var requestor_context = gel("requestor_context").value;
+	var oauth_provider_profile = gel("oauth_provider_profile").value;
+	var oauth_provider_id = gel("oauth_provider_id").value;
+	
+	if(!requestor) {
+		showError('Requestor is empty');
+		return;
+	}
+	
+	if(!requestor_context) {
+		showError('Requestor Context is empty');
+		return;
+	}
+	
+	if(!oauth_provider_profile && !oauth_provider_id) {
+		showError('OAuth Provider Profile is empty');
+		return;
+	}
+	
+	var oauthConsumerSupportFADV = new GlideAjax('x_snc_fadv.OAuthConsumerSupportFADV');
+	oauthConsumerSupportFADV.addParam('sysparm_name', 'initiateCCTokenFlow');
+	oauthConsumerSupportFADV.addParam('oauth_requestor', requestor);
+	oauthConsumerSupportFADV.addParam('oauth_requestor_context', requestor_context);
+	oauthConsumerSupportFADV.addParam('oauth_provider_profile', oauth_provider_profile);
+	oauthConsumerSupportFADV.addParam('oauth_provider_id', oauth_provider_id);
+	
+	// Invoke the GlideAjax with a callback function
+	oauthConsumerSupportFADV.getXML(parseAjaxResponse);
+	return;
+}
+
+function parseAjaxResponse(response) {
+	var result = response.responseXML.getElementsByTagName("result");
+	var isToken = result[0].getAttribute("isToken");
+	var responseCode = result[0].getAttribute("responseCode");
+	var errorMessage = result[0].getAttribute("errorMessage");
+	if(isToken == 'true') {
+		showSuccess('OAuth token flow completed successfully');
+		refreshOpener();
+		// close it in seconds		
+		setTimeout(closeSelf, 3000);
+		return;
+	} else {
+		showError('OAuth flow failed. Verify the configurations and try again. Error detail:' + errorMessage);
+		return;
+	}
+}
+
+function closeSelf() {
+	if (window.opener) {
+		window.close();
+	}
+}
+
+function refreshOpener() {
+	if (window.opener) {
+		window.opener.location.reload();
+	}
+}
+
+function showError(msg){
+	gel("divNotification").setAttribute('class', "notification notification-error");
+    showNotification(msg);
+}
+
+function showSuccess(msg){
+	gel("divNotification").setAttribute('class', "notification notification-success");
+	showNotification(msg);
+}
+
+function showNotification(msg){
+	gel("divNotification").style.display = "block";
+	gel("divNotification").innerHTML = new GwtMessage().getMessage(msg);
+	gel("output_messages").style.display = "none";//Clear the error from server if one exists so that we don't show the error twice
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_snc_fadv_oauth_client_credentials_input_fadv.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+	<style type="text/css">
+		.ga-table {
+			width:40%;
+			max-width:898px;
+			margin-left:25%;
+		}
+	</style>
+
+	<j:set var="jvar_oauth_requestor" value="${sysparm_oauth_requestor}" />
+	<j:set var="jvar_oauth_requestor_context" value="${sysparm_oauth_requestor_context }" />
+	<j:set var="jvar_oauth_provider_profile" value="${sysparm_oauth_provider_profile}" />
+	<j:set var="jvar_oauth_provider_id" value="${sysparm_oauth_provider_id}" />
+	
+	<g:requires name="styles/heisenberg/heisenberg_all.css" includes="true" />
+    <g:ui_form>
+    
+    	<div class="notification notification-failure" id="divNotification" style="display:none;">
+			<button data-dismiss="alert" class="btn-icon close icon-cross">
+				<span class="sr-only">Close</span>
+		    </button>
+		</div>
+
+		<input type="hidden" name="requestor" id="requestor" value="${jvar_oauth_requestor}"/> 
+		<input type="hidden" name="requestor_context" id="requestor_context" value="${jvar_oauth_requestor_context}"/>
+		<input type="hidden" name="oauth_provider_profile" id="oauth_provider_profile" value="${jvar_oauth_provider_profile}"/>
+		<input type="hidden" name="oauth_provider_id" id="oauth_provider_id" value="${jvar_oauth_provider_id}"/>
+		
+    </g:ui_form> 
+	<script>
+		addLoadEvent(function(){
+		    initiateOAuthFlow();
+		});
+	</script>
+</j:jelly>]]></html>
+        <name>oauth_client_credentials_input_fadv</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>priytam</sys_created_by>
+        <sys_created_on>2019-11-18 10:47:23</sys_created_on>
+        <sys_id>b1cfc7ffdb414cd06a555275ca9619fc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>oauth_client_credentials_input_fadv</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_ui_page_b1cfc7ffdb414cd06a555275ca9619fc</sys_update_name>
+        <sys_updated_by>priytam</sys_updated_by>
+        <sys_updated_on>2019-11-18 11:18:28</sys_updated_on>
+    </sys_ui_page>
+</record_update>

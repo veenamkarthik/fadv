@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="First Advantage Task" max_length="40" name="x_snc_fadv_first_advantage_task" sizeclass="235" type="collection">
+        <element label="Candidate ID" max_length="40" name="candidate_id" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Maiden Name" max_length="40" name="maiden_name" type="string"/>
+        <element label="Middle Name" max_length="40" name="middle_name" type="string"/>
+        <element label="Order ID" max_length="40" name="order_id" type="string"/>
+        <element label="Order Status" max_length="40" name="order_status" type="string"/>
+        <element label="Package ID" max_length="40" name="package_id" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="Result Status" max_length="40" name="result_status" type="string"/>
+        <element choice="1" label="Salutation" max_length="40" name="salutation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dr." value="Dr."/>
+                <element inactive_on_update="false" label="Mr." value="Mr."/>
+                <element inactive_on_update="false" label="Mrs." value="Mrs."/>
+                <element inactive_on_update="false" label="Ms." value="Ms."/>
+            </choice>
+        </element>
+        <element label="Street Address" max_length="40" name="street_address" type="string"/>
+        <element label="Suffix" max_length="40" name="suffix" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+    </element>
+</database>

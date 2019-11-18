@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe2b6f3cfb6648c5011b0a0aadda1a382</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FDe2b6f3cfb6648c5011b0a0aadda1a382":{"country_code":"String","country_code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Country Code\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"language_code":"String","language_code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Language Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDe2b6f3cfb6648c5011b0a0aadda1a382.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Locale\",\"mandatory\":\"false\",\"uiUniqueId\":\"77350447-3a60-430f-a7b9-22dc8ab40601\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe2b6f3cfb6648c5011b0a0aadda1a382\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"10\",\"max_length\":\"8000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>anamika</sys_created_by>
+        <sys_created_on>2019-10-22 09:09:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a6b6f3cfdb648c506a555275ca961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe2b6f3cfb6648c5011b0a0aadda1a382</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_a6b6f3cfdb648c506a555275ca961982</sys_update_name>
+        <sys_updated_by>anamika</sys_updated_by>
+        <sys_updated_on>2019-10-22 09:09:36</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

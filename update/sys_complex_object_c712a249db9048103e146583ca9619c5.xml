@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD0712a249e3904810d9d2517d1a8796c5</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD0712a249e3904810d9d2517d1a8796c5":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0712a249e3904810d9d2517d1a8796c5.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"User Defined Fields\",\"mandatory\":\"false\",\"child_name\":\"user_defined_field\",\"uiUniqueId\":\"d8079ded-551c-4351-8040-60ae1adeef82\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD0712a249e3904810d9d2517d1a8796c5\",\"child_label\":\"User Defined Field\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"7\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"c44e98fa-3828-47b3-90fa-714dabc3db3f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aayashak</sys_created_by>
+        <sys_created_on>2019-10-03 11:36:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c712a249db9048103e146583ca9619c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD0712a249e3904810d9d2517d1a8796c5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_c712a249db9048103e146583ca9619c5</sys_update_name>
+        <sys_updated_by>aayashak</sys_updated_by>
+        <sys_updated_on>2019-10-03 11:53:40</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

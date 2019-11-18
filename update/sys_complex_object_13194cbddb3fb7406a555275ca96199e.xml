@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD5f194cbd143fb740c227679057658b9d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD5f194cbd143fb740c227679057658b9d":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD5f194cbd143fb740c227679057658b9d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"User Defined Fields\",\"mandatory\":\"false\",\"child_name\":\"User Defined Fields_child0\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD5f194cbd143fb740c227679057658b9d\",\"child_label\":\"User Defined Fields_child0\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"8\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>anamika</sys_created_by>
+        <sys_created_on>2019-09-10 11:51:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>13194cbddb3fb7406a555275ca96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD5f194cbd143fb740c227679057658b9d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_13194cbddb3fb7406a555275ca96199e</sys_update_name>
+        <sys_updated_by>anamika</sys_updated_by>
+        <sys_updated_on>2019-09-10 11:51:56</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

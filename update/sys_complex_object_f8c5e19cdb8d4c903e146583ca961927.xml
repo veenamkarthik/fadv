@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD38c5e19c788d4c90cabae353af76c527</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD38c5e19c788d4c90cabae353af76c527":{"order_status":"String","order_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Order Status\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"score":"String","score.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Score\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"result_status":"String","result_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Result Status\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"order_id":"String","order_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Order ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD38c5e19c788d4c90cabae353af76c527.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Order\",\"mandatory\":\"false\",\"uiUniqueId\":\"66d64531-dc74-4559-8c90-094f3b9d79d6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD38c5e19c788d4c90cabae353af76c527\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-11-07 06:04:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f8c5e19cdb8d4c903e146583ca961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD38c5e19c788d4c90cabae353af76c527</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_f8c5e19cdb8d4c903e146583ca961927</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-11-07 06:04:21</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

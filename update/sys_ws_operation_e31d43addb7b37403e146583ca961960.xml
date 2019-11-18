@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Invite Status</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	var inviteDetails = new FirstAdvantageSpokeWebhookUtils().validateInputs("Webhook Response", request.body.data);
+	var applicant_id = new FirstAdvantageSpokeWebhookUtils().validateInputs("Invite ID", inviteDetails.order.application_details.applicant_id);
+	var candidate_id = "";
+	var req_number = "";
+	var quote_backs = inviteDetails.order.meta_data.quote_backs;
+	var client_references = inviteDetails.order.meta_data.client_references;
+	var application_event = inviteDetails.order.application_details.application_event;
+	var application_status = inviteDetails.order.application_details.application_status;
+
+
+	for(var i=0; i<=quote_backs.length; i++){
+		var obj = quote_backs[i];
+		if(obj.name == 'candidate_id'){
+			candidate_id = new FirstAdvantageSpokeWebhookUtils().validateInputs("Candidate ID", obj.value);
+			break;
+		}
+	}
+
+	var inputsPayload = {
+		applicant_id : applicant_id,
+		invite_status : inviteDetails.order.application_details.application_status,
+		invite_url : inviteDetails.order.application_details.application_url,
+		candidate_id : candidate_id,
+		application_status : application_status,
+		application_event : application_event
+	};
+	
+	var cr =[];
+	for(var key in client_references){
+		if(client_references[key]){
+			cr.push(client_references[key].toString());
+		}
+	}
+	
+	gs.info("cr : " + cr);
+	inputsPayload['client_references'] = cr.toString();
+	gs.info("payload: " + JSON.stringify(inputsPayload));
+	new FirstAdvantageSpokeWebhookUtils().queryEmployeeTaskTable(inputsPayload);
+
+	return("ok");
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_fadv/fadv/invite_status</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/invite_status</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>anamika</sys_created_by>
+        <sys_created_on>2019-09-10 07:37:09</sys_created_on>
+        <sys_id>e31d43addb7b37403e146583ca961960</sys_id>
+        <sys_mod_count>68</sys_mod_count>
+        <sys_name>Invite Status</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_ws_operation_e31d43addb7b37403e146583ca961960</sys_update_name>
+        <sys_updated_by>anamika</sys_updated_by>
+        <sys_updated_on>2019-11-14 11:35:54</sys_updated_on>
+        <web_service_definition display_value="FADV">9a2b8b2ddb7b37403e146583ca961930</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

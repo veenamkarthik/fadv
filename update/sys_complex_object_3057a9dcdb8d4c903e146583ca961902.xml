@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD7c57a9dc6d8d4c90d5b1602bbc6b7701</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD7c57a9dc6d8d4c90d5b1602bbc6b7701":{},"FlowDesigner:FD7c57a9dc6d8d4c90d5b1602bbc6b7701.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Order\",\"mandatory\":\"false\",\"uiUniqueId\":\"73259344-a28a-4ba9-ae87-91c2bd192f2f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7c57a9dc6d8d4c90d5b1602bbc6b7701\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-11-07 06:11:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3057a9dcdb8d4c903e146583ca961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD7c57a9dc6d8d4c90d5b1602bbc6b7701</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_3057a9dcdb8d4c903e146583ca961902</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-11-07 06:11:10</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

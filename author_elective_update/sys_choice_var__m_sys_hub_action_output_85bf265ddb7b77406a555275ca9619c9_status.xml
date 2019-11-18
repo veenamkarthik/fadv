@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="var__m_sys_hub_action_output_85bf265ddb7b77406a555275ca9619c9" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_85bf265ddb7b77406a555275ca9619c9</name>
+            <sequence>1</sequence>
+            <sys_created_by>aayashak_test</sys_created_by>
+            <sys_created_on>2019-09-09 10:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cabfe65ddb7b77406a555275ca96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aayashak_test</sys_updated_by>
+            <sys_updated_on>2019-09-09 10:42:53</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_85bf265ddb7b77406a555275ca9619c9</name>
+            <sequence>2</sequence>
+            <sys_created_by>aayashak_test</sys_created_by>
+            <sys_created_on>2019-09-09 10:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ebfe65ddb7b77406a555275ca96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aayashak_test</sys_updated_by>
+            <sys_updated_on>2019-09-09 10:42:53</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>var__m_sys_hub_action_output_85bf265ddb7b77406a555275ca9619c9</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aayashak_test</sys_created_by>
+            <sys_created_on>2019-09-09 10:42:53</sys_created_on>
+            <sys_id>46bfe65ddb7b77406a555275ca96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_output_85bf265ddb7b77406a555275ca9619c9_status</sys_update_name>
+            <sys_updated_by>aayashak_test</sys_updated_by>
+            <sys_updated_on>2019-09-09 10:42:53</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

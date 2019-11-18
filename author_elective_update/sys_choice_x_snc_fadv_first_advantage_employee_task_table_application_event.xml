@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="application_event" table="x_snc_fadv_first_advantage_employee_task_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Applicant Registered and or Updated</label>
+            <language>en</language>
+            <name>x_snc_fadv_first_advantage_employee_task_table</name>
+            <sequence/>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:09:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8242335db05c0d03e146583ca9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:09:30</sys_updated_on>
+            <value>Applicant Registered and or Updated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BI Submitted</label>
+            <language>en</language>
+            <name>x_snc_fadv_first_advantage_employee_task_table</name>
+            <sequence/>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:10:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66c4eb35db05c0d03e146583ca96197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:10:17</sys_updated_on>
+            <value>BI Submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consent Accepted</label>
+            <language>en</language>
+            <name>x_snc_fadv_first_advantage_employee_task_table</name>
+            <sequence/>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:09:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9a4ab35db05c0d03e146583ca961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:09:53</sys_updated_on>
+            <value>Consent Accepted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consent Rejected</label>
+            <language>en</language>
+            <name>x_snc_fadv_first_advantage_employee_task_table</name>
+            <sequence/>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:10:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb4eb35db05c0d03e146583ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:10:06</sys_updated_on>
+            <value>Consent Rejected</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>application_event</element>
+            <name>x_snc_fadv_first_advantage_employee_task_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:09:30</sys_created_on>
+            <sys_id>08a4e735db05c0d03e146583ca9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>application_event</sys_name>
+            <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+            <sys_update_name>sys_choice_x_snc_fadv_first_advantage_employee_task_table_application_event</sys_update_name>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:09:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

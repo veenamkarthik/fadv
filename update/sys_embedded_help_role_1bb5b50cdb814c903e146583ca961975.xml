@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_snc_fadv.First Advantage Admin" name="x_snc_fadv.First Advantage Admin">0fa5350cdb814c903e146583ca9619a3</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-11-06 12:35:40</sys_created_on>
+        <sys_id>1bb5b50cdb814c903e146583ca961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0fa5350cdb814c903e146583ca9619a3</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_1bb5b50cdb814c903e146583ca961975</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-11-06 12:35:40</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc0faa077a7388c90202b8e948fa1df80</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FDc0faa077a7388c90202b8e948fa1df80":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc0faa077a7388c90202b8e948fa1df80.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Profile Details\",\"mandatory\":\"false\",\"child_name\":\"profie\",\"uiUniqueId\":\"6a4c43cd-7489-4e59-a769-f11cd5d7721b\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDc0faa077a7388c90202b8e948fa1df80\",\"child_label\":\"Profile Name\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ef3dd45c-7935-431b-ac78-dbd70df1eab3\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 12:30:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>84faa077db388c906a555275ca961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc0faa077a7388c90202b8e948fa1df80</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_84faa077db388c906a555275ca961980</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 12:30:21</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

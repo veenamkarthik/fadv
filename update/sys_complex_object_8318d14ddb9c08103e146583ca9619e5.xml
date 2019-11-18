@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDcf18d14d8f9c0810b31e5d94d5b2d4e4</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FDcf18d14d8f9c0810b31e5d94d5b2d4e4":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDcf18d14d8f9c0810b31e5d94d5b2d4e4.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Profiles\",\"mandatory\":\"false\",\"child_name\":\"profie\",\"uiUniqueId\":\"6a4c43cd-7489-4e59-a769-f11cd5d7721b\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDcf18d14d8f9c0810b31e5d94d5b2d4e4\",\"child_label\":\"Profile\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d3b9e37c-8f69-4152-8636-ba3f250284ec\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>mohammadik</sys_created_by>
+        <sys_created_on>2019-10-03 06:13:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8318d14ddb9c08103e146583ca9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDcf18d14d8f9c0810b31e5d94d5b2d4e4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_8318d14ddb9c08103e146583ca9619e5</sys_update_name>
+        <sys_updated_by>mohammadik</sys_updated_by>
+        <sys_updated_on>2019-10-03 06:13:03</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

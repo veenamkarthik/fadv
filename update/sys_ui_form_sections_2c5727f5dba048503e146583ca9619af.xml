@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2c5727f5dba048503e146583ca9619af" sys_domain="global" table="x_snc_fadv_first_advantage_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-18 10:49:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e85727f5dba048503e146583ca9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_fadv_first_advantage_task" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="Default view">2c5727f5dba048503e146583ca9619af</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="Default view">76b4ab35dba048503e146583ca9619e6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-18 10:49:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-11 06:12:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56ed4625db4180d03e146583ca961981</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_fadv_first_advantage_task" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="Default view">2c5727f5dba048503e146583ca9619af</sys_ui_form>
+            <sys_ui_section caption="Candidate Details" display_value="Candidate Details" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="Default view">96ed4625db4180d03e146583ca96197e</sys_ui_section>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-11 06:14:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-18 10:49:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>205727f5dba048503e146583ca9619b2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_fadv_first_advantage_task" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="Default view">2c5727f5dba048503e146583ca9619af</sys_ui_form>
+            <sys_ui_section caption="Order Details" display_value="Order Details" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="Default view">245727f5dba048503e146583ca9619b1</sys_ui_section>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-11 06:14:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_fadv_first_advantage_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-18 10:49:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c5727f5dba048503e146583ca9619af</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_snc_fadv_first_advantage_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2c5727f5dba048503e146583ca9619af</sys_update_name>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-06 12:08:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

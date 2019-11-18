@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD002a9f75c4c1c0d09b670def23cd87ad</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD002a9f75c4c1c0d09b670def23cd87ad":{"$COCollectionField":[{"account_detail":{"account_id":"String","account_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"account_id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"7fbee03e-438e-4df9-9ac0-7ea9ca6dd061\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"eefc87a8-1e1a-4c95-a5be-204ac21397e2\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"bd3d608a-2fab-48df-a4d4-3f6f516da3b6\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Account Details\",\"mandatory\":\"false\",\"child_name\":\"account_detail\",\"uiUniqueId\":\"b163d9b2-00af-4b32-9b2f-4334efa7f125\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD002a9f75c4c1c0d09b670def23cd87ad\",\"child_label\":\"account_detail\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"9a70d321-4d3c-41f8-a126-1c49c09dd6ba\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"c79fb817-9345-4c07-b3ac-cb141952c6c7\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD002a9f75c4c1c0d09b670def23cd87ad.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"bd3d608a-2fab-48df-a4d4-3f6f516da3b6\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Account Details\",\"mandatory\":\"false\",\"child_name\":\"account_detail\",\"uiUniqueId\":\"b163d9b2-00af-4b32-9b2f-4334efa7f125\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD002a9f75c4c1c0d09b670def23cd87ad\",\"child_label\":\"account_detail\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"9a70d321-4d3c-41f8-a126-1c49c09dd6ba\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"c79fb817-9345-4c07-b3ac-cb141952c6c7\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 06:23:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c02a9f75dbc1c0d03e146583ca9619ad</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>FD002a9f75c4c1c0d09b670def23cd87ad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_c02a9f75dbc1c0d03e146583ca9619ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 06:35:41</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

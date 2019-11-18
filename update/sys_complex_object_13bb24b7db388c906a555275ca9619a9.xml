@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD5fbb24b7ec388c907def7da691e650a8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD5fbb24b7ec388c907def7da691e650a8":{"$COCollectionField":[{"document":{"fileName":"String","fileName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"fileName\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"documentType":"String","documentType.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"documentType\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\"}"},"fileSize":"String","fileSize.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"fileSize\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\"}"},"uploaded_at":"String","uploaded_at.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"uploaded_at\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\"}"},"documentTypeId":"String","documentTypeId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"documentTypeId\",\"mandatory\":\"true\",\"order\":\"6\",\"max_length\":\"0\"}"},"fileContentType":"String","fileContentType.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"fileContentType\",\"mandatory\":\"true\",\"order\":\"7\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"documents\",\"mandatory\":\"true\",\"child_name\":\"document\",\"uiUniqueId\":\"a61ce8c2-79a4-4a8c-8a16-aacb3ca049d8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD5fbb24b7ec388c907def7da691e650a8\",\"child_label\":\"document\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"513bc1c2-4791-4f5e-af68-a2aedbb3c0e7\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD5fbb24b7ec388c907def7da691e650a8.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"documents\",\"mandatory\":\"true\",\"child_name\":\"document\",\"uiUniqueId\":\"a61ce8c2-79a4-4a8c-8a16-aacb3ca049d8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD5fbb24b7ec388c907def7da691e650a8\",\"child_label\":\"document\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"513bc1c2-4791-4f5e-af68-a2aedbb3c0e7\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 12:33:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>13bb24b7db388c906a555275ca9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD5fbb24b7ec388c907def7da691e650a8</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_13bb24b7db388c906a555275ca9619a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 12:33:52</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

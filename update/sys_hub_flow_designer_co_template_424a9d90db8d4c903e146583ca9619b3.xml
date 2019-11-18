@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <complex_definition>FDc7b22184a5414c90d65c4063a364402d</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-11-07 05:14:11</sys_created_on>
+        <sys_id>424a9d90db8d4c903e146583ca9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FADV-order template</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_424a9d90db8d4c903e146583ca9619b3</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-11-07 05:14:11</sys_updated_on>
+        <template_label>FADV-order template</template_label>
+        <template_name>fadv_order_template</template_name>
+    </sys_hub_flow_designer_co_template>
+</record_update>

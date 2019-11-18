@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="First Advantage Employee Task" max_length="40" name="x_snc_fadv_first_advantage_employee_task_table" sizeclass="25" type="collection">
+        <element choice="1" label="Application Event" max_length="40" name="application_event" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Applicant Registered and or Updated" value="Applicant Registered and or Updated"/>
+                <element inactive_on_update="false" label="BI Submitted" value="BI Submitted"/>
+                <element inactive_on_update="false" label="Consent Accepted" value="Consent Accepted"/>
+                <element inactive_on_update="false" label="Consent Rejected" value="Consent Rejected"/>
+            </choice>
+        </element>
+        <element label="Candidate ID" max_length="40" name="candidate_id" type="string"/>
+        <element label="Invite ID" max_length="40" name="invite_id" type="string"/>
+        <element label="Invite Status" max_length="40" name="invite_status" type="string"/>
+        <element label="Invite URL" max_length="40" name="invite_url" type="url"/>
+        <element label="Package ID" max_length="40" name="package_id" type="string"/>
+        <element label="Parent Order Task Number" mandatory="true" max_length="20" name="parent_task" read_only="true" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD0cece43bff388c903d8e90814fef7c55</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD0cece43bff388c903d8e90814fef7c55":{"$COCollectionField":[{"position_location_child":{"country":"String","country.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Country\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"city":"String","city.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"City\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"state":"String","state.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"State\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Position Locations\",\"mandatory\":\"false\",\"child_name\":\"position_location_child\",\"uiUniqueId\":\"b1c8a870-fcf4-4bec-b861-e6af4d82bc48\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0cece43bff388c903d8e90814fef7c55\",\"child_label\":\"Position Location\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"12\",\"max_length\":\"8000\",\"child_uiUniqueId\":\"249e2940-06e6-443f-9ed0-b48d2328caf1\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0cece43bff388c903d8e90814fef7c55.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Position Locations\",\"mandatory\":\"false\",\"child_name\":\"position_location_child\",\"uiUniqueId\":\"b1c8a870-fcf4-4bec-b861-e6af4d82bc48\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0cece43bff388c903d8e90814fef7c55\",\"child_label\":\"Position Location\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"12\",\"max_length\":\"8000\",\"child_uiUniqueId\":\"249e2940-06e6-443f-9ed0-b48d2328caf1\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 12:38:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ccece43bdb388c906a555275ca961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD0cece43bff388c903d8e90814fef7c55</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_ccece43bdb388c906a555275ca961955</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 12:38:50</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f0813108db814c903e146583ca96190a" sys_domain="global" table="x_snc_fadv_first_advantage_task" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_fadv_first_advantage_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-06 12:18:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0813108db814c903e146583ca96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_fadv_first_advantage_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f0813108db814c903e146583ca96190a</sys_update_name>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-06 12:18:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-tempa178f22f0a0a0aa700177b15b2567d0e_7e1311e3db17b3006a555275ca961908" name="rpt-tempa178f22f0a0a0aa700177b15b2567d0e_7e1311e3db17b3006a555275ca961908">1c916ed9db3b77406a555275ca9619cb</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

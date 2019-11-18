@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDdef8bceb6128cc503da061d26720965d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FDdef8bceb6128cc503da061d26720965d":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDdef8bceb6128cc503da061d26720965d.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Client References\",\"mandatory\":\"false\",\"child_name\":\"client_reference\",\"uiUniqueId\":\"faa90cd5-7dfd-4b38-a7df-85bc90253e80\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDdef8bceb6128cc503da061d26720965d\",\"child_label\":\"Client Reference\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"6\",\"max_length\":\"8000\",\"child_uiUniqueId\":\"92a2adc5-dfef-42b5-91aa-01680dbcb4df\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>anamika</sys_created_by>
+        <sys_created_on>2019-10-23 08:37:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>92f8bcebdb28cc506a555275ca96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDdef8bceb6128cc503da061d26720965d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_92f8bcebdb28cc506a555275ca96195e</sys_update_name>
+        <sys_updated_by>anamika</sys_updated_by>
+        <sys_updated_on>2019-10-23 08:37:30</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

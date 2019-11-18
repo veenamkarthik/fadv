@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf831735f0b30c890d8ee12bbee907496</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FDf831735f0b30c890d8ee12bbee907496":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf831735f0b30c890d8ee12bbee907496.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"User Defined Fields\",\"mandatory\":\"false\",\"child_name\":\"user_defined_field\",\"uiUniqueId\":\"5dd5dce4-68a2-41ae-a987-b0187570b522\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDf831735f0b30c890d8ee12bbee907496\",\"child_label\":\"User Defined Field\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"7\",\"max_length\":\"8000\",\"child_uiUniqueId\":\"cf534d93-f950-43c6-a73e-9135ecb5e55e\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-11-04 13:39:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bc31735fdb30c8903e146583ca961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf831735f0b30c890d8ee12bbee907496</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_bc31735fdb30c8903e146583ca961996</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-11-04 13:39:38</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

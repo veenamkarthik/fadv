@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Packages" max_length="40" name="x_snc_fadv_packages" type="collection">
+        <element label="Package ID" max_length="40" name="package_id" type="string"/>
+        <element label="Package Name" max_length="40" name="package_name" type="string"/>
+    </element>
+</database>

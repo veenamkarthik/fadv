@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>2ce613b0bd2b11e9afb402682ddfc999</client_id>
+        <client_secret>ixNxOUMUEYYf4L2iOFHzLLBnQq75Edstwe5EQuz4IAYzJE3jVdfE4Q==</client_secret>
+        <client_uuid>cd24dbf3db814cd06a555275ca9619a5</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>client_credentials</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>FirstAdvantage_Reg_Priy</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url/>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>basic_authorization_header</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>priytam</sys_created_by>
+        <sys_created_on>2019-11-18 11:06:38</sys_created_on>
+        <sys_id>4124dbf3db814cd06a555275ca9619a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FirstAdvantage_Reg_Priy</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>oauth_entity_4124dbf3db814cd06a555275ca9619a6</sys_update_name>
+        <sys_updated_by>priytam</sys_updated_by>
+        <sys_updated_on>2019-11-18 11:07:14</sys_updated_on>
+        <token_url>https://rest-ua.fadv.com/api/v1.1/oauth2/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

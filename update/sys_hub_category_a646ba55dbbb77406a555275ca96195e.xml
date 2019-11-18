@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Invite Management</name>
+        <order>300</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-09-09 11:11:49</sys_created_on>
+        <sys_id>a646ba55dbbb77406a555275ca96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Invite Management</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_hub_category_a646ba55dbbb77406a555275ca96195e</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-09-09 11:11:49</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=a646ba55dbbb77406a555275ca96195e"/>
+</record_update>

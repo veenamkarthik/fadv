@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>get_packages_action</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>true</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Get Packages</name>
+        <onclick>getPackageDetails()</onclick>
+        <order>100</order>
+        <script><![CDATA[function getPackageDetails(){
+  
+  var answer = {};
+    var ga = new GlideAjax('x_snc_fadv.FirstAdvantageSpokeActionUtils');
+    ga.addParam('sysparm_name', 'triggerSubFlow');
+    ga.addParam('sysparm_actionName', 'get_account_packages');
+    ga.getXMLAnswer(triggerSubFlow);
+
+    function triggerSubFlow(response) {
+	
+        answer = JSON.parse(response);  
+		alert(JSON.stringify(answer.data));
+        var package_Details = answer.data;	
+		alert(JSON.stringify(package_Details));
+		var ga1 = new GlideAjax('x_snc_fadv.FirstAdvantageSpokeActionUtils');
+		ga1.addParam('sysparm_name', 'fetchAndUpdatePackages');
+//		ga1.addParam('sysparm_packageid', package_Details['name']);
+		
+		//for (var key in package_Details) {
+			ga1.addParam('sysparm_packageid',package_Details[0].name);
+			ga1.addParam('sysparm_packagename', package_Details[0].label);
+       // }
+	}
+
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-11-18 09:17:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e4566bbdb4948d03e146583ca961997</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Get Packages</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_ui_action_7e4566bbdb4948d03e146583ca961997</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-11-18 11:03:48</sys_updated_on>
+        <table>x_snc_fadv_packages</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

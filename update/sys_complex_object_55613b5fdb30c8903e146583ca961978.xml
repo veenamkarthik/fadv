@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD91613b5f7f30c890e38b3f947d3f2278</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD91613b5f7f30c890e38b3f947d3f2278":{"$COCollectionField":[{"address":{"country":"String","country.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Country\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"street_address":"String","street_address.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Street Address\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"city":"String","city.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"City\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"state":"String","state.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"State\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"zip_code":"String","zip_code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Zip Code\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Addresses\",\"mandatory\":\"false\",\"child_name\":\"address\",\"uiUniqueId\":\"e3174495-dd5a-4b1c-a9c5-bf6d13df4105\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD91613b5f7f30c890e38b3f947d3f2278\",\"child_label\":\"Address\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"9\",\"max_length\":\"8000\",\"child_uiUniqueId\":\"d90d5a63-09a2-4b02-a705-563ab59b8bf8\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD91613b5f7f30c890e38b3f947d3f2278.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Addresses\",\"mandatory\":\"false\",\"child_name\":\"address\",\"uiUniqueId\":\"e3174495-dd5a-4b1c-a9c5-bf6d13df4105\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD91613b5f7f30c890e38b3f947d3f2278\",\"child_label\":\"Address\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"9\",\"max_length\":\"8000\",\"child_uiUniqueId\":\"d90d5a63-09a2-4b02-a705-563ab59b8bf8\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-11-04 13:40:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>55613b5fdb30c8903e146583ca961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD91613b5f7f30c890e38b3f947d3f2278</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_55613b5fdb30c8903e146583ca961978</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-11-04 13:40:29</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Create A Case(Via Invite)">d5024f5fdb7c88903e146583ca961948</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-11-04 10:14:14</sys_created_on>
+        <sys_id>c832cf5fdb7c88903e146583ca9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.test</sys_name>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_c832cf5fdb7c88903e146583ca9619ef</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-11-04 10:14:14</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

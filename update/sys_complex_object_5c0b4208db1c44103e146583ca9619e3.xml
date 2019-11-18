@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD980b4208a31c4410817473aee1a0f3e3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD980b4208a31c4410817473aee1a0f3e3":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD980b4208a31c4410817473aee1a0f3e3.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"User Defined Fields\",\"mandatory\":\"false\",\"child_name\":\"user_defined_field\",\"uiUniqueId\":\"5dd5dce4-68a2-41ae-a987-b0187570b522\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD980b4208a31c4410817473aee1a0f3e3\",\"child_label\":\"User Defined Field\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"7\",\"max_length\":\"8000\",\"child_uiUniqueId\":\"b863397c-e226-4dc9-9204-5d580c969a6a\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-09-30 07:21:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5c0b4208db1c44103e146583ca9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD980b4208a31c4410817473aee1a0f3e3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_5c0b4208db1c44103e146583ca9619e3</sys_update_name>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-09-30 07:21:29</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

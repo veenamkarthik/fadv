@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD9abeb65a1778c490906e10d48dd4a2f1</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>56e01698dbb333403e146583ca96192d</scope_name>
+        <serialized_content>{"FlowDesigner:FD9abeb65a1778c490906e10d48dd4a2f1":{"score":"String","score.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"score\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2321e8b4-a04d-44ae-ae1d-a68f22d531b1\"}"},"result_url":"String","result_url.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"result_url\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"655e7644-8033-4740-a646-597a5d570d4c\"}"},"screenings":["Any"],"screenings.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"screenings\",\"mandatory\":\"true\",\"child_name\":\"screening\",\"uiUniqueId\":\"ea22e9bd-f832-42cb-b261-e69d36936318\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"screening\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"ac07e5db-3b56-41ec-a82d-d80632407f3f\"}"},"order_id":"String","order_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Order ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"a8eda05c-e0b9-4dae-bff9-e64db1fcf449\"}"}},"FlowDesigner:FD9abeb65a1778c490906e10d48dd4a2f1.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Order\",\"mandatory\":\"false\",\"uiUniqueId\":\"fb581c36-811d-468d-a6c4-4f0c75e9e2ea\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD9abeb65a1778c490906e10d48dd4a2f1\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-01 07:25:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5ebeb65adb78c4903e146583ca9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD9abeb65a1778c490906e10d48dd4a2f1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+        <sys_update_name>sys_complex_object_5ebeb65adb78c4903e146583ca9619f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-01 07:25:10</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

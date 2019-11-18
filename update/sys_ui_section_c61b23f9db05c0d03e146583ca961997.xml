@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Candidate Details" section_id="c61b23f9db05c0d03e146583ca961997" sys_domain="global" table="x_snc_fadv_first_advantage_task" version="3" view="order_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>0</position>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:42:54</sys_created_on>
+            <sys_id>954c673ddb05c0d03e146583ca9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Candidate Details" display_value="Candidate Details" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="955f9c6bdba4cc506a555275ca9619b2">c61b23f9db05c0d03e146583ca961997</sys_ui_section>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:42:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>1</position>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:42:54</sys_created_on>
+            <sys_id>194c673ddb05c0d03e146583ca9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Candidate Details" display_value="Candidate Details" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="955f9c6bdba4cc506a555275ca9619b2">c61b23f9db05c0d03e146583ca961997</sys_ui_section>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:42:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street_address</element>
+            <position>2</position>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:42:54</sys_created_on>
+            <sys_id>994c673ddb05c0d03e146583ca9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Candidate Details" display_value="Candidate Details" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="955f9c6bdba4cc506a555275ca9619b2">c61b23f9db05c0d03e146583ca961997</sys_ui_section>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:42:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip_code</element>
+            <position>3</position>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:42:54</sys_created_on>
+            <sys_id>1d4c673ddb05c0d03e146583ca9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Candidate Details" display_value="Candidate Details" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="955f9c6bdba4cc506a555275ca9619b2">c61b23f9db05c0d03e146583ca961997</sys_ui_section>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:42:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:42:54</sys_created_on>
+            <sys_id>9d4c673ddb05c0d03e146583ca9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Candidate Details" display_value="Candidate Details" name="x_snc_fadv_first_advantage_task" sys_domain="global" view="955f9c6bdba4cc506a555275ca9619b2">c61b23f9db05c0d03e146583ca961997</sys_ui_section>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:42:54</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Candidate Details</caption>
+            <header>false</header>
+            <name>x_snc_fadv_first_advantage_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sheetals</sys_created_by>
+            <sys_created_on>2019-11-12 07:37:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c61b23f9db05c0d03e146583ca961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Candidate Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First Advantage Spoke">56e01698dbb333403e146583ca96192d</sys_scope>
+            <sys_update_name>sys_ui_section_c61b23f9db05c0d03e146583ca961997</sys_update_name>
+            <sys_updated_by>sheetals</sys_updated_by>
+            <sys_updated_on>2019-11-12 07:37:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Order View" name="order_view">955f9c6bdba4cc506a555275ca9619b2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

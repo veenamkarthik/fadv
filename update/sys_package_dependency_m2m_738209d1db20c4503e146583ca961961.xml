@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">e6f55794db3033006a555275ca9619b7</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>sheetals</sys_created_by>
+        <sys_created_on>2019-10-16 09:33:04</sys_created_on>
+        <sys_id>738209d1db20c4503e146583ca961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="First Advantage Spoke" source="x_snc_fadv">56e01698dbb333403e146583ca96192d</sys_package>
+        <sys_updated_by>sheetals</sys_updated_by>
+        <sys_updated_on>2019-10-16 09:33:04</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
